@@ -1,14 +1,13 @@
 Package.describe({
   name: "izqui:meteor-promise-all-properties",
   summary: "Export Promise.allProperties",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/izqui/meteor-promise-all-properties.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@0.9.0');
+  api.versionsFrom('METEOR@1.3');
 
-  api.addFiles('export.js');
-
+  api.addFiles('index.js');
   api.export('Promise');
 });
