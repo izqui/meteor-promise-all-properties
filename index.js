@@ -1,4 +1,3 @@
-
 Promise.allProperties = (object) => {
   const keys = Object.keys(object);
 
