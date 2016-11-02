@@ -1,3 +1,6 @@
-izqui:meteor-promise-all-properties@1.0.1
-meteor@1.0.3
-underscore@1.0.0
+izqui:meteor-promise-all-properties@1.0.4
+meteor@1.1.12
+modules@0.5.1
+modules-runtime@0.6.1
+promise@0.6.5
+underscore@1.0.6
